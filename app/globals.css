@@ -17,6 +17,8 @@
 }
 
 body {
+  min-height: 100vh;
+  margin: 0 auto;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,6 +26,26 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+    background-image: url(../public/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+  .wallet-button {
+    background-color: #212429;
+  };
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
 }
 
 @layer utilities {
