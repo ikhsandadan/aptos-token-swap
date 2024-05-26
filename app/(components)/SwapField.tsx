@@ -42,4 +42,6 @@ const SwapField = forwardRef<HTMLInputElement, SwapFieldProps>(({ obj }, inputRe
     }
 });
 
+SwapField.displayName = 'SwapField';
+
 export default SwapField;

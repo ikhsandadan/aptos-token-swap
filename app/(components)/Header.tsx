@@ -132,10 +132,6 @@ const Header = () => {
             ssr: false,
         }
     );
-
-    useEffect(() => {
-        setAutoConnect(true);
-    }, [account]);
     
     useEffect(() => {
         setBadge(notification.length);
@@ -143,6 +139,7 @@ const Header = () => {
 
     useEffect(() => {
         fetchUserAddress();
+        setAutoConnect(true);
     }, [account]);
 
     return (
