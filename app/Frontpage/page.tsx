@@ -21,7 +21,6 @@ const Frontpage = () => {
         fetchFaBalance, 
         fundWallet, 
         mintCoin,
-        burnCoin,
         transferAPT,
         transferAPTBack,
         myBalance, 
@@ -97,14 +96,6 @@ const Frontpage = () => {
     };
 
     useEffect(() => {
-        getBalance();
-        if (alphaAdmin && betaAdmin) {
-            console.log(alphaAdmin.accountAddress.toString());
-            console.log(betaAdmin.accountAddress.toString());
-        }
-    }, [userAddress]);
-
-    useEffect(() => {
         if (ALPHA_ADMIN_PRIVATEKEY && BETA_ADMIN_PRIVATEKEY) {
             const adminAlphaAccount = fetchAdminAccount(ALPHA_ADMIN_PRIVATEKEY);
             adminAlphaAccount.then((account: any) => {
@@ -116,6 +107,8 @@ const Frontpage = () => {
                 setBetaAdmin(account);
             })
         }
+
+        getBalance();
     }, [userAddress]);
 
     return (
@@ -131,7 +124,11 @@ const Frontpage = () => {
                                 Aptos Coin
                             </div>
                             <div className='flex place-content-center text-center bg-gray-700 px-4 py-1 w-auto rounded-full text-sm'>
-                                <div>{myBalance.toFixed(4)} APT</div>
+                                {myBalance === 0 ? 
+                                    <div>0</div>
+                                    :
+                                    <div>{myBalance.toFixed(4)} APT</div>
+                                }
                             </div>
                         </div>
                         <div className='text-center'>Fund your wallet with 1 Aptos coin</div>
