@@ -18,6 +18,7 @@
 
 body {
   min-height: 100vh;
+  max-height: 100vh;
   margin: 0 auto;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
