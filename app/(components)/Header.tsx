@@ -1,5 +1,5 @@
 "use client";
-import { useState, MouseEvent, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,17 +15,6 @@ import { Dropdown, Typography } from 'antd';
 import {
     useWallet
 } from "@aptos-labs/wallet-adapter-react";
-import {
-    Account,
-    AccountAddress,
-    AnyNumber,
-    Aptos,
-    AptosConfig,
-    InputViewFunctionData,
-    Network,
-    NetworkToNetworkName,
-    Ed25519PrivateKey 
-} from "@aptos-labs/ts-sdk";
 import dynamic from "next/dynamic";
 
 import { useAutoConnect } from './AutoConnectProvider';
@@ -45,8 +34,8 @@ const theme = createTheme({
 
 const Header = () => {
     const { account, connected, disconnect, wallet } = useWallet();
-    const { setSuccessAlertMessage, notification, setNotification } = useAlert();
-    const { fetchUserAddress, userAddress, setUserAddress } = useUserContext();
+    const { notification, setNotification } = useAlert();
+    const { fetchUserAddress, setUserAddress } = useUserContext();
     const { setAutoConnect } = useAutoConnect();
     const { Paragraph } = Typography;
     const [open, setOpen] = useState(false);
