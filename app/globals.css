@@ -47,6 +47,10 @@ body {
   input[type=number] {
     -moz-appearance: textfield;
   }
+
+  .notification::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @layer utilities {
