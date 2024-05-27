@@ -112,7 +112,7 @@ const Frontpage = () => {
     }, [userAddress]);
 
     return (
-        <div style={{minHeight: '90vh'}}>
+        <div style={{minHeight: '40vh'}}>
             {userAddress ? 
             <div className='grid grid-flow-row auto-rows-auto gap-10'>
                 <div className='text-center font-bold text-xl pt-2'>Aptos Swap Token</div>
