@@ -128,7 +128,7 @@ const AppContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
             },
         };
 
-        const loadingMessage = "Please accept transaction in your mobile wallet";
+        const loadingMessage = "Please accept transaction in your wallet";
 
         const id = setLoadingAlertMessage(loadingMessage);
 
