@@ -241,7 +241,7 @@ const AppContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
                 return "Error";
             }
     
-            setLoadingUpdateAlertMessage(id, `Swap ${coinNameToBurn} coin to ${coinNameToMint} coin success!`, "success");
+            setLoadingUpdateAlertMessage(id, ``Swap ${amountToBurn} ${coinNameToBurn} coin to ${amountToMint} ${coinNameToMint} coin success!`, "success");
             return txnMint;
         } catch (error) {
             setLoadingUpdateAlertMessage(id, "Failed to swap coin. Please try again later", "error");
