@@ -24,13 +24,16 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--background-start-rgb))
     )
     rgb(var(--background-start-rgb));
 
-    background-image: url(../public/wave.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
+  background-image: url(../public/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  display: flex;
+  flex-direction: column;
 
   .wallet-button {
     background-color: #212429;
@@ -51,6 +54,14 @@ body {
   .notification::-webkit-scrollbar {
     display: none;
   }
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
 }
 
 @layer utilities {
