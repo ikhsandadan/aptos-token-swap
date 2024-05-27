@@ -142,7 +142,7 @@ const Header = () => {
             <Box sx={{ flexGrow: 1 }} />
             {connected ? (
                 <Box sx={{ display: { xs: 'none', md: 'flex' } }} className='gap-5'>
-                    <Dropdown menu={{ items: notifications, style:{maxHeight: '50vh', overflow: 'scroll', paddingTop: '10px', paddingBottom: '10px'} }} placement="bottomRight" arrow={{ pointAtCenter: true }} className='hover:text-[#25fff2]'>
+                    <Dropdown menu={{ items: notifications, style:{maxHeight: '50vh', overflow: 'scroll', paddingTop: '10px', paddingBottom: '10px'}, className: 'notification' }} placement="bottomRight" arrow={{ pointAtCenter: true }} className='hover:text-[#25fff2]'>
                         <IconButton
                             size="medium"
                             aria-label={`show ${badge} new notifications`}
