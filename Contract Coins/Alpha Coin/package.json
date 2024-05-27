@@ -1,0 +1,15 @@
+{
+  "packageManager": "pnpm@9.1.2",
+  "scripts": {
+    "stackcoin": "ts-node stackcoin.ts"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.13.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "latest",
+    "typescript": "latest"
+  }
+}
