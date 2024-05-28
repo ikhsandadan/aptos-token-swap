@@ -101,4 +101,4 @@ Here's a snippet of the code:
 
 And finally, here's a video demonstrating how to swap coins.
 
-[![aptos-token-swap-demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=_pf6tlAFZJ8)
+[![aptos-token-swap-demo](https://img.youtube.com/vi/_pf6tlAFZJ8/0.jpg)](https://www.youtube.com/watch?v=_pf6tlAFZJ8)
