@@ -14,7 +14,7 @@ This is the initial view of the app:
 ![1](https://github.com/ikhsandadan/aptos-token-swap/assets/116878888/796c6a24-a9a2-4646-9d8c-ee90249370fa)
 
 
-Here, I'm using the Aptos Wallet Adapter so users can log in using wallets such as Martian, Petra, Nightly, and others. In this case, I'm using Martian. After logging in with the wallet, the view will look like this:
+Here, I'm using the Aptos Wallet Adapter so users can log in using wallets such as IdentityConnect, Martian, Petra, Nightly, and others. In this case, I'm using Martian. After logging in with the wallet, the view will look like this:
 
 ![2](https://github.com/ikhsandadan/aptos-token-swap/assets/116878888/6519c76e-ae1b-4077-b5d0-dd57768650fc)
 
