@@ -2,7 +2,7 @@
 
 [Aptos Token Swap DApp](https://aptos-token-swap.vercel.app/)
 
-For this project, I created 2 coins published by 2 different admins, which can be seen in the [Contract Coin](https://github.com/ikhsandadan/aptos-token-swap/tree/main/Contract%20Coins) folder: the Alpha coin and the Beta coin.
+For this project, I created 2 coins published by 2 different admins, which can be seen in the [Contract Coin](https://github.com/ikhsandadan/aptos-token-swap/tree/main/Contract%20Coins) folder, the Alpha coin and the Beta coin.
 
 To publish them, we first need to install all the dependencies by running `pnpm install`. Once that's done, we can run the `pnpm run stackcoin` command to publish the modules for both the Alpha and Beta coins. Don't forget to save the Alpha and Beta admin private keys, as well as the Alpha and Beta coin metadata addresses for the frontend app's .env file.
 
