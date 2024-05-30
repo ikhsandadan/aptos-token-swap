@@ -19,7 +19,7 @@ Here, I'm using the Aptos Wallet Adapter so users can log in using wallets such 
 ![2](https://github.com/ikhsandadan/aptos-token-swap/assets/116878888/6519c76e-ae1b-4077-b5d0-dd57768650fc)
 
 
-Here, we can see 4 components: our Aptos coin balance, where we can add Aptos faucet to our wallet; our Alpha coin balance, where we can buy 10 Alpha coins for 0.001 APT; our Beta coin balance, where we can buy 10 Beta coins for 0.001 APT; and finally, the Swap coin feature.
+Here, we can see 4 components: our Aptos coin balance, where we can add Aptos faucet to our wallet, our Alpha coin balance, where we can buy 10 Alpha coins for 0.001 APT, our Beta coin balance, where we can buy 10 Beta coins for 0.001 APT, and finally, the Swap coin feature.
 
 ## Aptos Coin Faucet
 This feature allows users to view their Aptos coin (APT) balance and add 1 Aptos coin (APT) to their wallet.
