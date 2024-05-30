@@ -33,7 +33,7 @@ const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
     const { setErrorAlertMessage } = useAlert();
 
     const wallets = [
-        new IdentityConnectWallet("57fa42a9-29c6-4f1e-939c-4eefa36d9ff5", {
+        new IdentityConnectWallet("e3ead969-fab3-4f3d-a120-26fca527f113", {
             networkName: Network.TESTNET,
         }),
         new FewchaWallet(),
